@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="276px" preserveAspectRatio="none" style="width:145px;height:276px;background:#FFFFFF;" version="1.1" viewBox="0 0 145 276" width="145px" zoomAndPan="magnify"><defs><filter height="300%" id="f1robaozry43ug" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1robaozry43ug)" height="50.4001" style="stroke:#A80036;stroke-width:1.5;" width="124" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="29" x="54.5" y="20.1481">Conv</text><line style="stroke:#A80036;stroke-width:1.0;" x1="7" x2="131" y1="25.4001" y2="25.4001"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="52" x="12" y="36.6901">kernel_size</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="52" x="74" y="36.6901">kernel_size</text><line style="stroke:#A80036;stroke-width:1.0;" x1="69" x2="69" y1="25.4001" y2="41.4001"/><line style="stroke:#A80036;stroke-width:1.0;" x1="7" x2="131" y1="41.4001" y2="41.4001"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="25.5" y="52.6901">stride</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="74" y="52.6901">stride</text><line style="stroke:#A80036;stroke-width:1.0;" x1="69" x2="69" y1="41.4001" y2="57.4001"/><rect fill="#FEFECE" filter="url(#f1robaozry43ug)" height="50.4001" style="stroke:#A80036;stroke-width:1.5;" width="98" x="20" y="123"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="17" x="60.5" y="136.1481">BN</text><line style="stroke:#A80036;stroke-width:1.0;" x1="20" x2="118" y1="141.4001" y2="141.4001"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="17" x="42" y="152.6901">eps</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="27" x="86" y="152.6901">0.001</text><line style="stroke:#A80036;stroke-width:1.0;" x1="81" x2="81" y1="141.4001" y2="157.4001"/><line style="stroke:#A80036;stroke-width:1.0;" x1="20" x2="118" y1="157.4001" y2="157.4001"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="51" x="25" y="168.6901">momentum</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="15" x="86" y="168.6901">0.1</text><line style="stroke:#A80036;stroke-width:1.0;" x1="81" x2="81" y1="157.4001" y2="173.4001"/><rect fill="#FEFECE" filter="url(#f1robaozry43ug)" height="18.4001" style="stroke:#A80036;stroke-width:1.5;" width="46" x="46" y="244"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="53" y="257.1481">ReLU</text><!--MD5=[40173255c536d423b557698bd3cdfc3c]
+link Conv to BN--><path codeLine="14" d="M69,59.02 C69,75.37 69,96.32 69,113.56 " fill="none" id="Conv-to-BN" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="69,118.78,73,109.78,69,113.78,65,109.78,69,118.78" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[da15af4055dbd7b7a68529309303553a]
+link BN to ReLU--><path codeLine="15" d="M69,175.05 C69,192.03 69,213.66 69,229.66 " fill="none" id="BN-to-ReLU" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="69,234.86,73,225.86,69,229.86,65,225.86,69,234.86" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[be1dee13d9a412661d558984f2c578b6]
+@startuml
+map Conv {
+    kernel_size => kernel_size
+    stride => stride
+}
+map BN {
+    eps => 0.001
+    momentum => 0.1
+    affine = True
+}
+map ReLU {
+    
+}
+Conv- ->BN
+BN- ->ReLU
+@enduml
+
+PlantUML version 1.2021.16(Thu Dec 09 01:25:22 CST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

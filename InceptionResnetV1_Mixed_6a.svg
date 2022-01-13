@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="266px" preserveAspectRatio="none" style="width:802px;height:266px;background:#FFFFFF;" version="1.1" viewBox="0 0 802 266" width="802px" zoomAndPan="magnify"><defs><filter height="300%" id="fn4dcbycui020" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#fn4dcbycui020)" height="34.4001" style="stroke:#A80036;stroke-width:1.5;" width="242" x="7" y="113"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="105" y="126.1481">Branch0</text><line style="stroke:#A80036;stroke-width:1.0;" x1="7" x2="249" y1="131.4001" y2="131.4001"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="12" y="142.6901">BasicConv2d</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="161" x="83" y="142.6901">(256, 384, kernel_size=3, stride=2)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="78" x2="78" y1="131.4001" y2="147.4001"/><rect fill="#FEFECE" filter="url(#fn4dcbycui020)" height="66.4001" style="stroke:#A80036;stroke-width:1.5;" width="310" x="300" y="98"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="432" y="111.1481">Branch1</text><line style="stroke:#A80036;stroke-width:1.0;" x1="300" x2="610" y1="116.4001" y2="116.4001"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="305" y="127.6901">BasicConv2d_0</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="161" x="388" y="127.6901">(256, 192, kernel_size=1, stride=1)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="383" x2="383" y1="116.4001" y2="132.4001"/><line style="stroke:#A80036;stroke-width:1.0;" x1="300" x2="610" y1="132.4001" y2="132.4001"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="305" y="143.6901">BasicConv2d_1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="217" x="388" y="143.6901">(192, 192, kernel_size=3, stride=1, padding=1)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="383" x2="383" y1="132.4001" y2="148.4001"/><line style="stroke:#A80036;stroke-width:1.0;" x1="300" x2="610" y1="148.4001" y2="148.4001"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="305" y="159.6901">BasicConv2d_2</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="161" x="388" y="159.6901">(192, 256, kernel_size=3, stride=2)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="383" x2="383" y1="148.4001" y2="164.4001"/><rect fill="#FEFECE" filter="url(#fn4dcbycui020)" height="34.4001" style="stroke:#A80036;stroke-width:1.5;" width="127" x="661.5" y="113"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="702" y="126.1481">Branch2</text><line style="stroke:#A80036;stroke-width:1.0;" x1="661.5" x2="788.5" y1="131.4001" y2="131.4001"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="52" x="666.5" y="142.6901">MaxPool2d</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="728.5" y="142.6901">(3, stride=2)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="723.5" x2="723.5" y1="131.4001" y2="147.4001"/><rect fill="#FEFECE" filter="url(#fn4dcbycui020)" height="18.4001" style="stroke:#A80036;stroke-width:1.5;" width="22" x="444" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="8" x="451" y="20.1481">X</text><rect fill="#FEFECE" filter="url(#fn4dcbycui020)" height="18.4001" style="stroke:#A80036;stroke-width:1.5;" width="33" x="438.5" y="234"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="19" x="445.5" y="247.1481">Cat</text><!--MD5=[adb164c456936209887effae80d07d84]
+link X to Branch0--><path codeLine="153" d="M427.96,26.22 C376.26,43.85 262.16,82.76 190.53,107.18 " fill="none" id="X-to-Branch0" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="185.45,108.91,195.2597,109.7878,190.1819,107.2946,192.675,102.2168,185.45,108.91" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6dce2fc1faddc54ef0a3cfc9f7a44ff5]
+link X to Branch1--><path codeLine="154" d="M455,34.42 C455,48.87 455,69.96 455,88.52 " fill="none" id="X-to-Branch1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="455,93.68,459,84.68,455,88.68,451,84.68,455,93.68" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[971e7785cd994a223b8f381cb3efafb7]
+link X to Branch2--><path codeLine="155" d="M482.12,28.2 C526.61,46.57 615.81,83.41 672.85,106.96 " fill="none" id="X-to-Branch2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="677.58,108.92,670.792,101.784,672.9596,107.0091,667.7345,109.1767,677.58,108.92" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[576da4c999da0950018a46dc7d2f93ff]
+link Branch0 to Cat--><path codeLine="156" d="M185.33,150.05 C254.32,173.57 367.74,212.24 422.88,231.05 " fill="none" id="Branch0-to-Cat" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="427.72,232.7,420.495,226.0068,422.9881,231.0846,417.9103,233.5778,427.72,232.7" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[41b66985f37a050a4ba8a8a742512a66]
+link Branch1 to Cat--><path codeLine="157" d="M455,165.17 C455,182.97 455,204.14 455,219.75 " fill="none" id="Branch1-to-Cat" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="455,224.81,459,215.81,455,219.81,451,215.81,455,224.81" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1b9172bd8f7c241f07ad25900d580a96]
+link Branch2 to Cat--><path codeLine="158" d="M677.66,150.05 C622.83,172.69 534.01,209.37 486.82,228.86 " fill="none" id="Branch2-to-Cat" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="482.11,230.8,491.9551,231.072,486.7334,228.8963,488.9091,223.6745,482.11,230.8" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3792953f7ac0dbe4d5244ef0fe3726fb]
+@startuml
+map Branch0 {
+    BasicConv2d => (256, 384, kernel_size=3, stride=2)
+}
+map Branch1 {
+    BasicConv2d_0 => (256, 192, kernel_size=1, stride=1)
+    BasicConv2d_1 => (192, 192, kernel_size=3, stride=1, padding=1)
+    BasicConv2d_2 => (192, 256, kernel_size=3, stride=2)
+}
+map Branch2 {
+    MaxPool2d => (3, stride=2)
+}
+map X {
+
+}
+map Cat {
+
+}
+X- ->Branch0
+X- ->Branch1
+X- ->Branch2
+Branch0- ->Cat
+Branch1- ->Cat
+Branch2- ->Cat
+@enduml
+
+PlantUML version 1.2021.16(Thu Dec 09 01:25:22 CST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
